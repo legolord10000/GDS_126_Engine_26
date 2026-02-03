@@ -19,7 +19,7 @@ Properties:
 
 var playerData ={
 	info:{
-		src:`images/snale.png`
+		src:`images/Neuro.png`
 	},
 	states:{
 		//The idle animation 
@@ -29,8 +29,10 @@ var playerData ={
 			cycle:true,
 			frames:
 			[
-				{width:128, height:128, startX:0, startY:0},
-				{width:128, height:128, startX:128, startY:0}
+				{width:128, height:128, startX:0, startY:0,},
+				{width:128, height:128, startX:128, startY:0},
+				{width:128, height:128, startX:256, startY:0,},
+				{width:128, height:128, startX:384, startY:0}
 				
 			]
 		},
