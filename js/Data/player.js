@@ -39,15 +39,14 @@ var playerData ={
 		//The walwidth:128, height:128,
 		walk:
 		{
-			fps:1,
+			fps:4,
 			cycle:true,
 			frames:
 			[
-				{width:128, height:128, startX:0, startY:0},
-				{width:128, height:128, startX:128, startY:0},
-				{width:128, height:128, startX:256, startY:0},
-				{width:128, height:128, startX:384, startY:0},
-				{width:128, height:128, startX:512, startY:0}
+				{width:128, height:128, startX:0, startY:128,},
+				{width:128, height:128, startX:0, startY:128,},
+				{width:128, height:128, startX:112, startY:128},
+				{width:128, height:128, startX:112, startY:128}
 			]
 		},
 		//The jump animation 
@@ -57,7 +56,7 @@ var playerData ={
 			cycle:false,
 			frames:
 			[
-				{width:128, height:128, startX:640, startY:0}
+				{width:128, height:128, startX:245, startY:140}
 			]
 		},
 		//The crouch animation 
@@ -67,11 +66,7 @@ var playerData ={
 			cycle:true,
 			frames:
 			[
-				{width:128, height:128, startX:768, startY:0},
-				{width:128, height:128, startX:768, startY:0},
-				{width:128, height:128, startX:768, startY:0},
-				{width:128, height:128, startX:768, startY:0},
-				{width:128, height:128, startX:896, startY:0}
+				{width:128, height:128, startX:384, startY:128}
 			]
 		},
 		//The attack animation 
