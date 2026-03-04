@@ -56,7 +56,7 @@ var playerData ={
 			cycle:false,
 			frames:
 			[
-				{width:128, height:128, startX:245, startY:140}
+				{width:128, height:128, startX:245, startY:128}
 			]
 		},
 		//The crouch animation 
@@ -72,20 +72,26 @@ var playerData ={
 		//The attack animation 
 		attack:
 		{
-			fps:3,
+			fps:15,
 			cycle:false,
-			//width:300,
 			frames:
 			[
-				{width:128, height:128, startX:1024, startY:0},
-				{width:128, height:128, startX:1024, startY:0},
-				{width:128, height:128, startX:1024, startY:0},
-				{width:128, height:128, startX:1152, startY:0},
-				{width:128, height:128, startX:1152, startY:0},
-				{width:128, height:128, startX:1152, startY:0},
-				{width:128, height:128, startX:1152, startY:0}
+				{width:128, height:128, startX:245, startY:128}
+			]
+		},
+			magic:
+		{
+			fps:15,
+			cycle:false,
+			frames:
+			[
+				{width:128, height:128, startX:0, startY:256,},
+				{width:128, height:128, startX:128, startY:256},
+				{width:128, height:128, startX:256, startY:256,},
+				{width:128, height:128, startX:384, startY:256}
 				
 			]
+				
 		}
 	}
 		
