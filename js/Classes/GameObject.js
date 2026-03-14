@@ -390,4 +390,6 @@ function GameObject(obj)
 		context.fillRect(this.x-size/2, this.y-size/2, size, size);
 		context.restore();
 	}
+
+	
 }
